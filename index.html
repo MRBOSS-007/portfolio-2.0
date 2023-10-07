@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>vishnu 2.0</title>
+</head>
+<body>
+    <!-- header-->
+    <section class=" header ">
+   
+        <!--navbar-->
+    
+    <nav class=" navbar">
+        <ul >
+            <li><a href="#slider">home</a></li>
+            <li><a href="#container">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+
+        </ul>
+    </nav>
+    
+    <!--sidebarr for contac and icons -->
+    
+    <div class="sidebar">
+    
+        <div class="media">
+            <a href="https://www.instagram.com/vishnu_s__nair_/?hl=en">   <img id="insta" src="images/instagram-logo-60.png" alt="insta"> </a>
+            <a href="https://in.linkedin.com/">    <img id="linkden" src="images/linkedin-square-logo-60.png "alt="insta"> </a>
+            <a href="https://github.com/MRBOSS-007">   <img id="github" src="images/github-logo-60.png" alt="github"> </a>
+        </div>
+    </div>
+       <!--personal info realted and text slider-->
+        <div class="info">
+            <div id="slider">
+                <div class="msg">
+                    <h1>Sri Vishnu Suresh</h1>
+                    <p>develepor ,engineer , blockchchain enthusiast </p>
+                </div>
+                <div class="msg">
+                    <h1>Resume</h1>
+                    <p> To download my resume  </p>
+                    <a href="">download</a>
+                </div>
+                <div class="msg">
+                    <h1>TO know how I did this</h1>
+                    <p>github source code
+                        
+                        <a href="">link</a> </p>
+                </div>
+            </div>
+        </div>
+           <!--controller used for text slider-->
+        <div class="controll">
+            <div id="line1"></div>
+            <div id="line2"></div>  
+            <div id="line3"></div>
+            <div id="active"></div>
+
+        </div>
+    </section>
+    <section id="skill">
+            <div id="container">
+                <h1 class="text">Skills you can except </h1>
+                <div id="slider">
+                    <div class ="skills">
+                        <!--html-->
+                            <div class="progress-card">
+                            <div class="progress-circle">
+                                <div class="progress-content">
+                                <h5 class="progText" data-count="95%"></h5>
+                                </div>
+                                <div class="progress"></div>
+                            </div>
+                            <h2>HTML</h2>
+                            </div>
+                            <!--CSS-->
+                            <div class="progress-card">
+                                <div class="progress-circle">
+                                <div class="progress-content">
+                                    <h5 class="progText" data-count="85%"></h5>
+                                </div>
+                                <div class="progress"></div>
+                                </div>
+                                <h2>CSS</h2>
+                            </div>
+                            <!--JAVASCRIPT-->
+                            <div class="progress-card">
+                            <div class="progress-circle">
+                                <div class="progress-content">
+                                <h5 class="progText" data-count="75%"></h5>
+                                </div>
+                                <div class="progress"></div>
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section  id="contact">
+    <div class="contacts">
+     <form>
+        <h1>contact me </h1>
+        <input type="text" id="firstname" placeholder="First Name" required>
+        <input type="text" id="lastname" placeholder="Last Name" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <input type="text" id="mobile" placeholder="Mobile" required>
+        <h4>Type your mesage here....</h4>
+        <textarea required ></textarea>
+        <input type="submit" value="Send" id="button">
+    </form>
+    </div>
+    </section>
+ <section class=" foooter">
+    <footer>
+        <div class="containers">
+            <div class="last">
+            <img src="images/github-logo-24.png" alt="github " id="githubb">
+            <img src="images/instagram-alt-logo-24.png" alt="instaagram " id="instaagram ">
+            <img src="images/linkedin-square-logo-24.png" alt="linkden" id="linkden"> 
+        </div>
+          <p>&copy; 2023 Sri Vishnu Suresh.
+             All rights reserved.</p>
+        </div>
+      </footer>
+     </section>
+
+    <script src="main.js"></script>
+</body>
+</html> 
